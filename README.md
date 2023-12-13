@@ -1,7 +1,8 @@
 # 📚 dclab-album
 The album repository for DC lab members
 <br>
-<img src="https://github.com/dclab-skku/dclab-album/blob/main/logo-album.jpg" width=400></img>
+<img src="https://github.com/dclab-skku/dclab-album/blob/main/logo-album.jpg?raw=true" width=400>
+<br>
 
 
 # 📚 Introduction 
