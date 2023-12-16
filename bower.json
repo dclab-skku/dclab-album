@@ -1,0 +1,19 @@
+{
+  "name": "dclab-album",
+  "description": "DC Lab Photo Gallery",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "Geunsik Lim"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
