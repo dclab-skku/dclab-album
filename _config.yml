@@ -1,10 +1,10 @@
 # Site settings
-title: Geunsik's Photorama
+title: DC Lab Photorama
 email: ""
-description: "Photo Journal"
+description: "DC Lab's Photo Gallery"
 url: "https://dclab-skku.github.io"
 baseurl: "/dclab-album"
-github_username:  "dclab-skku/photorama"
+github_username:  "dclab-skku/dclab-album"
 share: true
 
 # Owner/author information
