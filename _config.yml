@@ -1,6 +1,6 @@
 # Site settings
 title: DC Lab Photorama
-email: ""
+email: "dclab-skku@gmail.com"
 description: "DC Lab's Photo Gallery"
 url: "https://dclab-skku.github.io"
 baseurl: "/dclab-album"
