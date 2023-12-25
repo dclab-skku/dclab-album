@@ -1,0 +1,65 @@
+
+---
+layout: page
+title: "album"
+description: "masonry"
+active: gallery
+header-img: "img/gallery-bg.jpg"
+album-title: "DC Lab 2015 album"
+images:
+ - image_path: /gallery/2015/20150525.jpg
+   caption: Gallery 2015
+   copyright: © photorama
+---
+
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+</head>
+
+    <body>
+ 
+	<section id="content" role="main">
+		<div class="wrapper">
+	<br><br>
+			<h2>{{page.album-title}}</h2>
+
+
+			<!-- Gallery __-->
+			<div class="gallery masonry-gallery">
+		
+{% for image in page.images %}  		
+
+				<figure class="gallery-item">
+					<header class='gallery-icon'>
+
+<a href="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}" class="popup" title="{{ image.caption }}" data-caption="{{ image.copyright }}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
+						
+					</header>	
+					<figcaption class='gallery-caption'>
+						<div class="entry-summary">
+							<h3>{{image.caption}}</h3>
+							<p>{{image.copyright}}</p>
+						</div>
+					</figcaption>
+				</figure>
+				
+{% endfor %}
+
+			</div>
+
+		</div><!-- END .wrapper -->
+	</section>
+
+<!-- jQuery -->    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- include image popups -->
+<script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
+<script src="{{ site.baseurl }}/js/retina.min.js"></script>
+<!-- include Masonry -->
+<script src="{{ site.baseurl }}/js/isotope.pkgd.min.js"></script> 
+<!-- include mousewheel plugins -->
+<script src="{{ site.baseurl }}/js/jquery.mousewheel.min.js"></script>
+<!-- include carousel plugins -->
